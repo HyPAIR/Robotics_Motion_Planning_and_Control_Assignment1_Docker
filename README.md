@@ -21,4 +21,5 @@ $ sudo ./src/panda_ros2_gazebo/docker/run.bash panda_ros2_gazebo <demo>
 ```
 
 Set the `<demo>` argument as `fk` for launching the forward kinematics node, or `ik` for the inverse kinematics. Check out the `entrypoint.bash` to see how the demos are launched. 
+
 ** At the moment, the `gzclient` hangs when launching the simulation from `run.bash`. Gazebo splash screen appears and then hangs and never finishes launching.** 
